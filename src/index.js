@@ -4,6 +4,7 @@ express()
     .get("/", (req,res)=>{
         res.json({
             ok:true,
+            version:1.1,
             serverIsOnline:true
         })
     })
