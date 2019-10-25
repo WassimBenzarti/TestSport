@@ -8,4 +8,4 @@ express()
             serverIsOnline:true
         })
     })
-    .listen(process.PORT || 8080)
+    .listen(process.PORT || 80)
