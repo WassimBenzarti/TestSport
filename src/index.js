@@ -1,11 +1,12 @@
 const express = require("express");
+require("dotenv").config();
 
 express()
     .get("/", (req,res)=>{
         res.json({
             ok:true,
-            version:1.9,
+            version:2,
             serverIsOnline:true
         })
     })
-    .listen(process.PORT || 80)
+    .listen(process.env.PORT || 80)
