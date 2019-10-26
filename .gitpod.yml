@@ -4,3 +4,8 @@ image:
 tasks:
   - init: npm install
     command: npm start
+
+ports:
+  - port: 8080
+    onOpen: open-browser
+  - port: 27017
