@@ -1,1 +1,1 @@
-FROM gitpod/workspace-mongodb
+FROM centos:7
